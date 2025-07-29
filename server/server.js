@@ -53,3 +53,15 @@ startApolloServer();     //* start server is called
 
 //! This server file sets up an Express server with Apollo Server integration,
 //! serving static assets, and handling GraphQL requests based on the defined schemas and resolvers.
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "../client/build")));
+
+  app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "../client/build/index.html"));
+  });
+}
