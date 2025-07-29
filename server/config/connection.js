@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+console.log("Connecting to Mongo URI:", process.env.MONGODB_URI);
 
 mongoose.connect(
   process.env.MONGODB_URI ||
