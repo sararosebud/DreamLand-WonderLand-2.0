@@ -1,0 +1,217 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
+/**
+ * @license React
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * use-sync-external-store-shim.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * use-sync-external-store-shim/with-selector.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @remix-run/router v1.7.2
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/**
+ * React Router DOM v6.14.2
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/**
+ * React Router v6.14.2
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/** @license React v0.19.1
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.14.0
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.14.0
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.14.0
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+//! 'mutation login' function takes in $email and $password values from front end
+
+//! Input changes are handled to update the form state. 
+
+//! It includes a form with various input fields for collecting user information. 
+
+//! Nav wrap to provide navigation functionality
+
+//! Provider store wrap to allow all components access to the global state defined in the "store.js"
+
+//! Routes component has various Route components all with specific paths and corresponding component to render
+
+//! The component also includes navigation links and styling for the signup form.
+
+//! The form submission triggers a mutation to add the user, 
+
+//! and finally recieves a response object with the token and user
+
+//! and the user is then logged in using the generated token. 
+
+//! cartOpen: false,
+
+//! checks if currentsize exists, if no currentsize warning is given a string value, and appears in in hmtl further down
+
+//! checks if state.cart has data and if not gets product data from 
+
+//! checks the state.cart for a product that matches with the payload(action.id, action.size), 
+
+//! component handles user signup functionality. 
+
+//! does the ADD_ORDER mutation with the products array as the variable option
+
+//! for every item in productData, it is removed from the indexDB
+
+//! function logic for adding to cart is button is clicked
+
+//! i tried to mimic the action above's structure
+
+//! i tried to mimic the structure of action above
+
+//! if itemInCart has data aka its in cart state then update its quantity
+
+//! if no match to cart, add a product with our local state values to the store cart
+
+//! if size warning is set to empty and doesnt appear
+
+//! indexDB, passes that data as the payload to the ADD_MULTIPLE_TO_CART action type
+
+//! intital local state and its update function are declared with useState hook
+
+//! it reads the items from the 'cart' indexDB and assigns it to cart variable
+
+//! local state for this component is declared, "formState" intital state including two empty fields for email and password, and 'setFormState' to update it
+
+//! looks for item existing in cart matching our size and id and assigns to itemInCart if found
+
+//! makes a products array by mapping each item in the cart with its item._id
+
+//! mutation is declared to add user
+
+//! necessary dependencies imported
+
+//! on stripe success of payment this page is loaded that has the logic to add the order to users order
+
+//! on submit all the item ids are psuhed into a productIDs array
+
+//! passed into getcheckout and used as the options for QUERYCHECKOUT
+
+//! passes them to login server mutation requirements by the '$'
+
+//! remove from cart checks for size and id
+
+//! reset quantity input form to 1
+
+//! returns updated product to store cart
+
+//! router wrap to handle routing
+
+//! since the item is being passed in as a prop from cart component with "state.cart.map((item).... <CartItem item='item'/>" we dont need state
+
+//! takes the state.cart and spreads it, updating it with payload/data for the product(action.product), then returns the updated state with new cart
+
+//! the sessionid is extracted and helps redirect to the stripe checkout page
+
+//! the whole app is wrapped in the apolloclient allowing all components to connect with the graphQL database
+
+//! timer redirects to home '/'
+
+//! useMutation points toward LOGIN mutation, with login function deconstructed
+
+//! when the data exist/updates from the QUERYCHECKOUT response
+
+//! when the data response is recieved from the mutation, the products are extracted from the data into productData array
+
+//!spreads that product and updates the quantity with payload quantity

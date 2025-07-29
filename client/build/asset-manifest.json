@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac941c0d.css",
+    "main.js": "/static/js/main.76ce02c4.js",
+    "static/media/coverscape.png": "/static/media/coverscape.d647fee1f965514e79a7.png",
+    "static/media/BagelFatOne-Regular.ttf": "/static/media/BagelFatOne-Regular.036565a8126d1bf2ae0c.ttf",
+    "static/media/TiltPrism-Regular-VariableFont_XROT,YROT.ttf": "/static/media/TiltPrism-Regular-VariableFont_XROT,YROT.a39a32398249debc0671.ttf",
+    "static/media/CutieWave.png": "/static/media/CutieWave.4906495dd9b73b17f25b.png",
+    "static/media/TiltPrism-Regular.ttf": "/static/media/TiltPrism-Regular.387a204b45e4178f91b1.ttf",
+    "static/media/Dosis-VariableFont_wght.ttf": "/static/media/Dosis-VariableFont_wght.1af19a28a29fcb2321da.ttf",
+    "static/media/TsukimiRounded-Bold.ttf": "/static/media/TsukimiRounded-Bold.03de60b530f5f77b6643.ttf",
+    "static/media/TsukimiRounded-Regular.ttf": "/static/media/TsukimiRounded-Regular.dc7607101c944dce846b.ttf",
+    "static/media/TsukimiRounded-Medium.ttf": "/static/media/TsukimiRounded-Medium.4f3df543eb4c9f51b561.ttf",
+    "static/media/TsukimiRounded-Light.ttf": "/static/media/TsukimiRounded-Light.e523e31ea833babd58c0.ttf",
+    "static/media/spinner.gif": "/static/media/spinner.7e729fecb0d7593e9557.gif",
+    "static/media/Flamenco-Regular.ttf": "/static/media/Flamenco-Regular.beecf6cbc9b4f478ab15.ttf",
+    "static/media/Flamenco-Light.ttf": "/static/media/Flamenco-Light.8f5cc2e6097a08c38e4f.ttf",
+    "static/media/DreamLogo.png": "/static/media/DreamLogo.7364ec96d3e88089d53c.png",
+    "static/media/SquadaOne-Regular.ttf": "/static/media/SquadaOne-Regular.104dc97f8204f39823c4.ttf",
+    "index.html": "/index.html",
+    "main.ac941c0d.css.map": "/static/css/main.ac941c0d.css.map",
+    "main.76ce02c4.js.map": "/static/js/main.76ce02c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac941c0d.css",
+    "static/js/main.76ce02c4.js"
+  ]
+}
